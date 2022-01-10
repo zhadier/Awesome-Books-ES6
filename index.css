@@ -16,7 +16,7 @@ body {
   align-items: center;
   gap: 28px;
   justify-content: center;
-  background-image: url(/images/bg.png);
+  background-image: url(./images/bg.png);
 }
 
 h1 {
