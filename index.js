@@ -1,7 +1,7 @@
 import Collection from "./modules/collection.js";
 import Book from "./modules/book.js";
 import loadNavigation from "./modules/navigation.js";
-import { DateTime } from "./node_modules/luxon/src/luxon.js";
+import { DateTime } from "luxon";
 
 loadNavigation();
 
