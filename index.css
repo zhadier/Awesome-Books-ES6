@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Nunito:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Nunito:wght@400;500;700&display=swap");
 
 * {
   margin: 0;
@@ -20,13 +20,13 @@ body {
 }
 
 h1 {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 2rem;
   margin-bottom: 20px;
 }
 
 h2 {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 2rem;
 }
 
@@ -39,7 +39,6 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .add-books {
@@ -99,7 +98,7 @@ input {
 }
 
 .book-wraper > h3 {
-  font-family: 'Courgette', cursive;
+  font-family: "Courgette", cursive;
   font-weight: normal;
   font-size: 1.3rem;
 }
@@ -107,7 +106,7 @@ input {
 .remove-button {
   margin-left: auto;
   background-color: rgb(243, 241, 241);
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 1rem;
   height: 30px;
   width: 100px;
