@@ -11,7 +11,7 @@ const submitBtn = document.querySelector('.add-btn');
 const dateBox = document.querySelector('.date');
 
 const dt = DateTime.now();
-dateBox.innerHTML = `${dt.monthLong}, ${dt.day} ${dt.weekYear}. ${dt.hour}:${dt.minute}:${dt.second}`;
+dateBox.innerHTML = `${dt.monthLong}, ${dt.day}, ${dt.weekYear}, ${dt.hour}:${dt.minute}:${dt.second}`;
 
 const coll = new Collection();
 if (localStorage.getItem('bookCollection')) {
