@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Nunito:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  width: 75%;
+  margin: 100px auto 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  justify-content: center;
+  background-image: url(/images/bg.png);
+}
+
+h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 2rem;
+}
+
+section {
+  min-height: 70vh;
+}
+
+.books-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.add-books {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.books {
+  border: 2px solid black;
+  min-width: 600px;
+  max-height: 50vh;
+  overflow: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  margin-top: 20px;
+}
+
+input {
+  width: 100%;
+}
+
+.add-btn {
+  width: 40px;
+}
+
+.book-wraper {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 0.625rem;
+  min-width: 600px;
+  padding: 10px 20px 10px 20px;
+}
+
+.book-wraper:nth-child(odd) {
+  background-color: rgb(214, 208, 208);
+}
+
+.book-wraper:nth-child(even) {
+  background-color: white;
+}
+
+.book-wraper > h3 {
+  font-family: 'Courgette', cursive;
+  font-weight: normal;
+  font-size: 1.3rem;
+}
+
+.remove-button {
+  margin-left: auto;
+  background-color: rgb(243, 241, 241);
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  height: 30px;
+  width: 100px;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 2vh;
+  left: 0;
+  flex-direction: column;
+}
+
+.date {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navigation {
+  background: #fff;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px;
+  border: 2px solid black;
+}
+
+.nav-list {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-list > li > a {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+}
+
+.nav-list > li:nth-child(2) {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  padding: 0 20px;
+}
+
+footer {
+  height: 10vh;
+  width: 80%;
+  border: 2px solid black;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+}
+
+footer > p {
+  margin: 0 20px;
+}
+
+.toggle {
+  display: none;
+}
+
+.contact-heading {
+  margin-bottom: 30px;
+}

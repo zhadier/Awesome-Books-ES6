@@ -1,59 +1,41 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Awesome books
 
-> One paragraph statement about the project.
+> A webpage to display books
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+In this webpage you can add books, or delete the old ones, and all is going to be displayed on the window.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS & JavaScript
+- Github
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://lisandroseia.github.io/awesome-books/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
 
 ### Setup
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+To clone this repository use git clone https://github.com/lisandroseia/awesome-books.git
 
 ## Authors
 
-👤 **Author1**
+👤 **Lisandro Seia**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@lisandroseia](https://github.com/lisandroseia)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/lisandro-seia-295120225/)
 
-👤 **Author2**
+👤 **Zeeshan Haider**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/zhadier)
 
 ## 🤝 Contributing
 
@@ -64,12 +46,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
