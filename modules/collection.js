@@ -4,6 +4,7 @@ export default class Collection {
   }
 
   add(data) {
+    const txt = document.querySelector("form > p");
     if (
       this.books.filter(
         (item) => item.author === data.author && item.title === data.title
@@ -26,22 +27,24 @@ export default class Collection {
     this.display(data);
     this.remove();
     this.populateStorage();
-    inputAuthor.value = "";
-    inputTitle.value = "";
+
     setTimeout(() => {
       txt.innerHTML = "";
     }, 1500);
   }
 
   remove() {
+    const bookSection = document.querySelector(".books");
     const removeBtns = document.querySelectorAll(".remove-button");
     removeBtns[removeBtns.length - 1].addEventListener("click", (evt) => {
       this.removeFromColl(evt.target);
+
       bookSection.removeChild(evt.target.parentNode);
     });
   }
 
   display(data) {
+    const bookSection = document.querySelector(".books");
     if (this) {
       const div = document.createElement("div");
       div.className = "book-wraper";
