@@ -1,4 +1,4 @@
-export default function loadNavigation() {
+export default () => {
   const navAdd = document.querySelector('#addNew');
   const navList = document.querySelector('#list');
   const navContact = document.querySelector('#contact');
@@ -26,4 +26,4 @@ export default function loadNavigation() {
     booksWindow.classList.add('toggle');
     addWindow.classList.add('toggle');
   });
-}
+};
