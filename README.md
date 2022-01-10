@@ -4,7 +4,7 @@
 
 > A webpage to display books
 
-![screenshot](./app_screenshot.png)
+![screenshot](https://user-images.githubusercontent.com/90556221/148825408-15109762-e538-436e-8485-9e2c1d656044.png)
 
 In this webpage you can add books, or delete the old ones, and all is going to be displayed on the window.
 
@@ -15,7 +15,7 @@ In this webpage you can add books, or delete the old ones, and all is going to b
 
 ## Live Demo
 
-[Live Demo Link](https://lisandroseia.github.io/awesome-books/)
+[Live Demo Link](https://zhadier.github.io/Awesome-Books-ES6/)
 
 
 ## Getting Started
@@ -24,18 +24,21 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-To clone this repository use git clone https://github.com/lisandroseia/awesome-books.git
+To clone this repository use git clone https://github.com/zhadier/Awesome-Books-ES6.git
 
 ## Authors
 
 👤 **Lisandro Seia**
 
 - GitHub: [@lisandroseia](https://github.com/lisandroseia)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/lisandro-seia-295120225/)
 
 👤 **Zeeshan Haider**
 
-- GitHub: [@githubhandle](https://github.com/zhadier)
+- GitHub: [@zhadier](https://github.com/zhadier)
+
+👤 **Gaby Suarez**
+
+- GitHub: [@Gabyse1](https://github.com/Gabyse1)
 
 ## 🤝 Contributing
 
